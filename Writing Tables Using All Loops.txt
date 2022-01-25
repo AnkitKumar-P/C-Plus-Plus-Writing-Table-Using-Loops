@@ -1,0 +1,86 @@
+// **************************LOOPS:: FOR LOOP***********************************
+
+
+
+// QUES1 WRITE TABLE OF GIVEN NUMBER USING FOR LOOP
+
+
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main()
+{
+    int c;
+    cout<<"I Am Going To write A Table For You.\nWrite The Number Below.";
+    cin>>c;
+    cout<<"Your Table Is Below."<<endl;
+    for(int i=1;i<=10;i++){
+        int r =c*i;
+         cout<<c<<"   x "<<setw(3)<<i<<" = "<<setw(2)<<r<<endl;
+         
+   }
+   cout<<"Here We Are Done Thanks!";
+    return 0;
+}
+
+
+
+
+
+
+
+// **************************LOOPS:: WHILE LOOP*************************************************
+
+
+// QUES1 WRITE TABLE OF GIVEN NUMBER USING WHILE LOOP
+
+
+
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main()
+{
+    int c;int i=1;
+    cout<<"I Am Going To write A Table For You.\nWrite The Number Below.";
+    cin>>c;
+    cout<<"Your Table Is Below."<<endl;
+    while(i<=10){
+         int r =c*i;
+          cout<<c<<"   x "<<setw(3)<<i<<" = "<<setw(2)<<r<<endl;
+         i++;
+   }
+   cout<<"Here We Are Done Thanks!";
+    return 0;
+}
+
+
+
+
+
+
+
+// **************************LOOPS:: DO WHILE LOOP*************************************************
+
+
+// QUES1 WRITE TABLE OF GIVEN NUMBER USING WHILE LOOP
+
+
+
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main()
+{
+    int c;int i=1;
+    cout<<"I Am Going To write A Table For You.\nWrite The Number Below.";
+    cin>>c;
+    cout<<"Your Table Is Below."<<endl;
+    do{
+         int r =c*i;
+          cout<<c<<"   x "<<setw(3)<<i<<" = "<<setw(2)<<r<<endl;
+         i++;
+   }while(i<=10);
+   cout<<"Here We Are Done Thanks!";
+    return 0;
+}
